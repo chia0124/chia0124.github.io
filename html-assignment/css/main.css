@@ -1,0 +1,38 @@
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    background-color: aqua;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.site-title {
+    color: blueviolet;
+}
+
+ul.b {
+    list-style: square;
+}
+
+li:nth-child(1),li:nth-child(3) {
+    background: plum;
+}
+
+a:link {
+    color: blueviolet;
+    text-decoration: none;
+    background-color: aqua;
+    border: 2px;
+    border-style: solid;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+    background-color: blueviolet;
+}
