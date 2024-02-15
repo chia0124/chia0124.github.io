@@ -15,7 +15,7 @@ header, footer {
     color: blueviolet;
 }
 
-.hobbies {
+ul.h {
     list-style: square;
 }
 
