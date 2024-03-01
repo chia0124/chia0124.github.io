@@ -19,20 +19,19 @@ header, footer {
     list-style: square;
 }
 
-li:nth-child(1),li:nth-child(3) {
-    background: plum;
+li:nth-child(odd) {
+    background-color: plum;
 }
 
 a:link {
-    color: blueviolet;
     text-decoration: none;
     background-color: aqua;
-    border: 2px;
-    border-style: solid;
+    border: 2px solid blueviolet;
+    color: blueviolet;
 }
 
 a:hover {
-    color: aqua;
-    text-decoration: none;
     background-color: blueviolet;
+    border: 2px solid aqua;
+    color: aqua;
 }
