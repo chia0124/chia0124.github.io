@@ -7,51 +7,59 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-        <div class="header-img">
-            <img src="images/lone-starfish-wide.jpg" alt="lone starfish wide">
-            <div class="site-title">Lone Starfish</div>
+    <header id="home">
+        <div class="head-img">
+            <img src="images/lone-starfish-wide.jpg" alt="lone-starfish-wide">
+            <div class="title">Lone Starfish</div>
         </div>
+    </header>
     <nav>
-        <ul>
-            <li><a href="#site-title" id="home-nav">HOME</a></li>
-            <li><a href="#story" id="story-nav">STORY</a></li>
-            <li><a href="#contact" id="contact-nav">CONTACT</a></li>
-        </ul>
+        <a href="#home" class="home-nav">HOME</a>
+        <a href="#story" class="story-nav">STORY</a>
+        <a href="#contact" class="contact-nav">CONTACT</a>
     </nav>
-    <h2 id="story">Life of a Starfish</h2>
-        <img id="lone-starfish" src="images/lone-starfish.jpg" alt="orange Starfish on blue sand">
+    <div class="main-text">
+        <h2 id="story" class="story-title">Life of a Starfish</h2>
+        <img class="lone-starfish" src="images/lone-starfish.jpg" alt="orange Starfish on blue sand">
         <p>
             Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
         </p>
-    <h2>Facts About Starfish</h2>
+        <br>
+        <h2 class="facts-text">Facts About Starfish</h2>
         <ul>
             <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
             <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
         </ul>
-    <h2 id="contact">Contact to learn more</h2>
-        <form action="" method="get">
-            <label for="fullname">Your Name</label>
-            <br>
-            <input id="fullname">
-            <br>
-            <label for="email">Your Email</label>
-            <br>
-            <input id="email">
-            <br>
-            <label for="message">Your Message</label>
-            <br>
-            <input id="message">
-            <p>Would you like to vist the starfish?</p>
-            <label for="yes">Yes</label>
-            <input type="radio" id="yes" name="vistask" value="yes">
-            <label for="no">No</label>
-            <input type="radio" id="no" name="vistask" value="no">
-            <label for="maybe">Maybe</label>
-            <input type="radio" id="maybe" name="vistask" value="maybe">
-            <br>
-            <button type="submit">Send</button>
-        </form>
+    <h2 id="contact" class="contact-title">Contact to learn more</h2>
+        <div id="form-box">
+            <form action="thanks.html" method="get">
+                <label for="fullname">Your Name</label>
+                <br>
+                <input id="fullname" class="text-box">
+                <br>
+                <label for="email">Your Email</label>
+                <br>
+                <input id="email" class="text-box"> 
+                <br>
+                <label for="message">Your Message</label>
+                <br>
+                <input id="message" class="text-box">
+                <p>Would you like to vist the starfish?</p>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="vistask" value="yes">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="vistask" value="no">
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="vistask" value="maybe">
+                <br>
+                <button type="submit" id="send-button">Send</button>
+            </form>
+        </div>
+        <footer>
+            @ Lone Starfish.
+        </footer>
+    </div>
 </body>
 </html>
