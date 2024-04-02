@@ -52,7 +52,6 @@ a {
 
 .fa-magnifying-glass { 
     position: static;
-    right: inherit;
     color: #C78B07;
     padding: 8px;
     border: solid #C78B07 1px;
