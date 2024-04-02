@@ -49,11 +49,3 @@ a {
     width: 80%;
     height: 30px;
 }
-
-.fa-magnifying-glass { 
-    position: static;
-    color: #C78B07;
-    padding: 8px;
-    border: solid #C78B07 1px;
-    margin: 1px;
-}
