@@ -4,30 +4,245 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/43aac08e4a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="">
     <title>Final Project Alex Chiabai</title>
 </head>
-<!-- font arial, background color #222222, padding top 10px -->
+<!-- body {
+    font-family: Arial, Helvetica, sans-serif;
+} -->
 <body>
-    <!-- background color #222222, padding left & right 10px -->
+    <!-- header {
+        background-color: #222222;
+        padding: 10px;
+        margin: -8px;
+    } -->
     <header>
-        <!-- background color #C78B07, padding top and bottom 15px -->
+        <!-- .logo-banner {
+            background-color: #C78B07;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        } -->
         <div class="logo-banner">
             <img src="images/logo.png" alt="">
         </div>
         <nav>
-            <!-- ul remove bullets, margin & padding 0, position static, text-algin center-->
+            <!-- ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                position: static;
+                text-align: center;
+            } -->
             <ul>
-                <!-- li font size 1.4rem, padding top & bottom 20px | li "home" background color #C78B07 | link home-button color #222222 | link remove underline, color #C78B07 -->
-                <li class="home"><a class="home-button" href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Team</a></li>
-                <li><a href="">Contact</a></li>
+                <!-- li {
+                    font-size: 1.2rem;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                .home-nav {
+                    background-color: #C78B07;
+                }
+                
+                .home-link {
+                    color: #222222;
+                }
+                
+                .nav-link {
+                    color: #C78B07;
+                } -->
+                <li class="home-nav"><a class="home-link" href="">Home</a></li>
+                <li><a class="nav-link" href="">About Us</a></li>
+                <li><a class="nav-link" href="">Services</a></li>
+                <li><a class="nav-link" href="">Team</a></li>
+                <li><a class="nav-link" href="">Contact</a></li>
             </ul>
         </nav>
+        <!-- .search-bar {
+            position: static;
+            width: 90%;
+            height: 35px;
+            font-size: 1.2rem;
+        }
+        
+        .fa-magnifying-glass {
+            color: #C78B07;
+            font-size: 1.5rem;
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+            margin-left: -5px;
+            border: solid #C78B07 1px;
+        } -->
         <input class="search-bar" type="text" placeholder="Search">
         <i class="fa-solid fa-magnifying-glass"></i>
     </header>
+    <!-- .home {
+        background-image: url("/final-project/images/main-banner.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .home-text {
+        text-wrap: wrap;
+        background-color: #22222288;
+        padding-left: 10px;
+    }
+    
+    .home-text > h1 {
+        color: white;
+        font-size: 3rem;
+        margin-bottom: 35px;
+    }
+    
+    .home-text > p {
+        color: white;
+    }     -->
+    <div class="home">
+        <div class="home-text">
+            <h1>Welcome to Three Star Media</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iusto corrupti accusamus, possimus officiis minima voluptate in maiores deleniti laboriosam incidunt beatae minus recusandae accusantium, numquam quae neque. Molestias, debitis!</p>
+            <!-- .connect {
+                background-color: #C78B07;
+                width: fit-content;
+                padding: 20px;
+                font-size: 1rem;
+            }
+            
+            .connect-link {
+                color: #222222;
+            } -->
+            <div class="connect">
+                <a class="connect-link" href="">Connect with us</a>
+                <i class="fa-solid fa-caret-right"></i>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <img src="images/about-us.jpg" alt="">
+    </div>
+    <h1 class="services">Our Services</h1>
+    <div>
+        <img src="images/digital.jpg" alt="">
+        <h2>Digital Transformation</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque deserunt esse quisquam voluptates ut rerum similique laborum commodi, tempora provident voluptatem aliquam ipsam. Officia saepe suscipit voluptate molestiae vel laborum?</p>
+        <!-- add background-color and border -->
+        <div class="plans">
+            Digital Plans
+            <i class="fa-solid fa-caret-right"></i>
+        </div>
+    </div>
+    <div>
+        <img src="images/marketing.jpg" alt="">
+        <h2>Marketing</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ex magni natus tempora vel! Molestias quisquam molestiae nostrum in ea unde exercitationem beatae temporibus ipsum! Tempora, mollitia dicta! Molestiae, tempore!</p>
+        <!-- add background-color and border -->
+        <div class="plans">
+            Marketing Plans
+            <i class="fa-solid fa-caret-right"></i>
+        </div>
+    </div>
+    <div>
+        <img src="images/video.jpg" alt="">
+        <h2>Video Production</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi nulla molestiae magnam, perferendis quo voluptatibus tempora at ullam, voluptate consequuntur aspernatur earum deleniti similique numquam suscipit. Illum, officia enim?</p>
+        <!-- add background-color and border -->
+        <div class="plans">
+            Video Plans
+            <i class="fa-solid fa-caret-right"></i>
+        </div>
+    </div>
+    <div>
+        <img src="images/web.jpg" alt="">
+        <h2>Web Development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi quaerat dicta qui ipsa pariatur, reprehenderit quasi officia beatae perferendis, voluptatem aperiam ut optio cupiditate minus expedita dolorum sunt dolore?</p>
+        <!-- add background-color and border -->
+        <div class="plans">
+            Web Plans
+            <i class="fa-solid fa-caret-right"></i>
+        </div>
+    </div>
+    <div>
+        <img src="images/print.jpg" alt="">
+        <h2>Print</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nostrum laboriosam quae labore, consequatur maiores asperiores eveniet sapiente alias nemo, totam qui? Debitis recusandae vel, vero numquam quidem similique molestias!</p>
+        <!-- add background-color and border -->
+        <div class="plans">
+            Print Plans
+            <i class="fa-solid fa-caret-right"></i>
+        </div>
+    </div>
+    <div>
+        <h2>Our Vision</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, ratione, sequi possimus nesciunt excepturi sit et vero suscipit, sed reiciendis quae aperiam. Debitis sit unde tenetur cum, ab rem harum.</p>
+        <!-- add background-color and border -->
+        <div class="plans">
+            Learn More
+            <i class="fa-solid fa-caret-right"></i>
+        </div>
+    </div>
+    <div>
+        <h1>Our Team</h1>
+        <div>
+            <img src="images/john.jpg" alt="">
+            <h2>John Doe</h2>
+            <p>CEO and Co-owner</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi labore quidem tenetur consectetur, porro accusantium modi dolor beatae eveniet corporis hic saepe quas, maxime impedit amet alias laboriosam enim natus.</p>
+        </div>
+        <div>
+            <img src="images/bob.jpg" alt="">
+            <h2>Bob Rite</h2>
+            <p>CEO and Co-owner</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi labore quidem tenetur consectetur, porro accusantium modi dolor beatae eveniet corporis hic saepe quas, maxime impedit amet alias laboriosam enim natus.</p>
+        </div>
+    </div>
+    <div>
+        <h1>Contact Us</h1>
+        <h2>Send us a message</h2>
+        <p>Full Name</p>
+        <input type="text">
+        <p>Email</p>
+        <input type="text">
+        <p>Messages</p>
+        <input type="text">
+        <div>
+            <button>Send</button>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179452.44513004564!2d-75.89500138359374!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1712188050265!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <h2>Hours of operation</h2>
+        table, th, td {
+            border: 1px solid #222222;
+            width: 100%;
+        }
+        
+        .days-hours {
+            text-align: center;
+            background-color: #FFE6AC;
+        } -->
+        <table>
+            <tr class="days-hours">
+                <th>Days</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>9 AM - 6 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday - Sunday</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>© Copyright Three Star Media</p>
+        <p>All images are taken from Unsplash</p>
+    </footer>
 </body>
 </html>
