@@ -23,16 +23,6 @@ ul {
     text-align: center;
 }
 
-li {
-    font-size: 1.2rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-a {
-    text-decoration: none;
-}
-
 .home-nav {
     background-color: #C78C06;
 }
@@ -45,6 +35,35 @@ a {
     color: #C78C06;
 }
 
+.home-button:hover {
+    cursor: pointer; 
+}
+
+.nav-button:hover {
+    cursor: pointer;
+}
+
+.home-button {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #222;
+    background-color: #C78C06;
+    border: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-button {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #C78C06;
+    background-color: #222;
+    border: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .search-bar {
     position: static;
@@ -98,16 +117,20 @@ a {
     margin-top: -20px;
 }
 
+.connect-with:hover {
+    cursor: pointer;
+}
+
 .connect-with {
     background-color: #C78C06;
     font-weight: 500;
     width: fit-content;
     border: none;
-    padding-top: 20px;
+    padding-top: 17px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 25px;
-    font-size: 1.1rem;
+    padding-bottom: 22px;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -137,7 +160,7 @@ a {
 
 #about > h1 {
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 10px;
 }
 
@@ -147,6 +170,7 @@ a {
 }
 
 #services {
+    font-size: 2.2rem;
     margin-top: 35px;
     margin-bottom: -2px;
 }
@@ -169,7 +193,7 @@ a {
 
 .service-text > h2 {
     font-weight: 700;
-
+    font-size: 1.4rem;
 }
 
 .service-text > p {
@@ -183,12 +207,23 @@ a {
     background-color: #222;
     color: white;
     width: fit-content;
+    font-weight: 500;
+    border: none;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 9px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-
-
-.plans > .fa-caret-right {
-
+.plans > p > .fa-caret-right {
+    position: relative;
+    top: 3px;
+    font-size: 1.5rem;
+    padding-left: 10px;
 }
 
 .vision {
@@ -210,14 +245,37 @@ a {
     padding-bottom: 15px;
 }
 
+.vision-text > h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
 .vision-text > p {
     font-size: 12px;
     font-weight: 500;
+    margin-top: -5px;
 }
 
 .vision-learn {
+    background-color: #222;
     border: solid 1px #C78C06;
     width: fit-content;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 9px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.vision-learn > p > .fa-caret-right {
+    position: relative;
+    top: 3px;
+    font-size: 1.5rem;
+    padding-left: 10px;
 }
 
 #our-team > h1 {
@@ -245,11 +303,14 @@ a {
 
 .bio-text > h2 {
     margin-top: 15px;
+    font-weight: 700;
 }
 
 .bio-text > h4 {
+    font-size: 12px;
     margin-bottom: -5px;
     margin-top: -20px;
+    font-weight: 700;
 }
 
 .bio-text > hr {
@@ -262,28 +323,23 @@ a {
     padding-bottom: 20px;
 }
 
-#contact {
-    padding-right: 5px;
-}
-
 #contact > h2 {
-    font-size: 1.3rem;
-    margin-bottom: 1px;
-    
-}
-
-label > p {
-    margin-bottom: 5px;
+    font-size: 1.5rem;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
-input {
-    width: 100%;
+form > label {
+    font-size: 14px;
+}
+
+form > input {
+    width: 99%;
+    margin-bottom: 10px;
 }
 
 .messages {
     padding-bottom: 100px;
-    margin-bottom: 15px;
 }
 
 .form-button {
@@ -297,10 +353,13 @@ input {
     font-size: 15px;
 }
 
+table {
+    width: 100%;
+}
+
 table, th, td {
     border: 1px solid #222;
     border-collapse: collapse;
-    width: 100%;
 }
 
 .days-hours {
@@ -308,13 +367,39 @@ table, th, td {
     background-color: #ffe6ac;
 }
 
+.days-hours > th > p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mon-fri > td > p {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sat-sun > td > p {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 footer {
     background-color: #222;
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -16px;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 footer > p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #C78C06;
+    padding-bottom: 6px;
+}
+
+a {
     color: #C78C06;
 }

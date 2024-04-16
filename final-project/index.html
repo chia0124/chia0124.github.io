@@ -21,14 +21,11 @@
         <nav>
             <!-- list style none, padding & margin 0, position static, text align center -->
             <ul>
-                <!-- li font size 1.2rem, padding top & bottom 20px, link text decoration none -->
-                <!-- home-nav background color #C78B07, home-link color #222222 -->
-                <li class="home-nav"><a class="home-link" href="#home">Home</a></li>
-                <!-- nav-link color #C78B07 -->
-                <li><a class="nav-link" href="#about">About Us</a></li>
-                <li><a class="nav-link" href="#services">Services</a></li>
-                <li><a class="nav-link" href="#our-team">Team</a></li>
-                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <button class="home-button" onclick="document.location = '#home'">Home</button>
+                <li><button class="nav-button" onclick="document.location = '#about'">About Us</button></li>
+                <li><button class="nav-button" onclick="document.location = '#services'">Services</button></li>
+                <li><button class="nav-button" onclick="document.location = '#our-team'">Team</button></li>
+                <li><button class="nav-button" onclick="document.location = '#contact'">Contact</button></li>
             </ul>
         </nav>
         <!-- position static, width 90%, height 35px, font size 1.2rem -->
@@ -45,8 +42,7 @@
             <!-- set color to white -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iusto corrupti accusamus, possimus officiis minima voluptate in maiores deleniti laboriosam incidunt beatae minus recusandae accusantium, numquam quae neque. Molestias, debitis!</p>
             <!-- make background #C78C06, set width to fit-content, make padding 20px, change font to 1rem -->
-            <button class="connect-with" onclick="document.location = '#contact'">Connect with us<i class="fa-solid fa-caret-right"></i>
-            </button>
+            <button class="connect-with" onclick="document.location = '#contact'">Connect with us<i class="fa-solid fa-caret-right"></i></button>
         </div>
     </div>
     <div id="about">
@@ -147,25 +143,31 @@
         <h1>Contact Us</h1>
         <h2>Send us a message</h2>
         <form action="index.html" method="get">
-            <label for="fullname"><p>Full Name</p></label>
+            <label for="fullname">Full Name</label>
+            <br>
             <input id="fullname">
-            <label for="email"><p>Email</p></label>
+            <br>
+            <label for="email">Email</label>
+            <br>
             <input id="email">
-            <label for="messages"><p>Messages</p></label>
+            <br>
+            <label for="messages">Messages</label>
+            <br>
             <input class="messages" id="messages">
+            <br>
             <button class="form-button" type="submit">Send</button>
         </form>
         <h2>Hours of operation</h2>
         <table>
             <tr class="days-hours">
-                <td><p>Days</p></td>
-                <td><p>Hours</p></td>
+                <th><p>Days</p></th>
+                <th><p>Hours</p></th>
             </tr>
-            <tr>
+            <tr class="mon-fri">
                 <td><p>Monday - Friday</p></td>
                 <td><p>9 AM - 6 PM</p></td>
             </tr>
-            <tr>
+            <tr class="sat-sun">
                 <td><p>Saturday - Sunday</p></td>
                 <td><p>Closed</p></td>
             </tr>
@@ -174,8 +176,8 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179452.44513004564!2d-75.89500138359374!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1712188050265!5m2!1sen!2sca" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <footer>
-        <p>© Copyright Three Star Media</p>
-        <p>All images are taken from Unsplash</p>
+        <p>© Copyright Three Star Media, 2024</p>
+        <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
     </footer>
 </body>
 </html>
