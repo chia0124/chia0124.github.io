@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
 }
 
 
@@ -10,7 +10,7 @@ header {
 }
 
 .logo-banner {
-    background-color: #C78B07;
+    background-color: #C78C06;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -34,7 +34,7 @@ a {
 }
 
 .home-nav {
-    background-color: #C78B07;
+    background-color: #C78C06;
 }
 
 .home-link {
@@ -42,7 +42,7 @@ a {
 }
 
 .nav-link {
-    color: #C78B07;
+    color: #C78C06;
 }
 
 
@@ -54,56 +54,267 @@ a {
 }
 
 .fa-magnifying-glass {
-    color: #C78B07;
+    color: #C78C06;
     font-size: 1.5rem;
     padding-left: 7px;
     padding-right: 7px;
     padding-bottom: 10px;
     padding-top: 5px;
     margin-left: -5px;
-    border: solid #C78B07 1px;
+    border: solid #C78C06 1px;
 }
 
-.home {
+#home {
     background-image: url("/final-project/images/main-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .home-text {
     text-wrap: wrap;
-    background-color: #22222288;
+    background-color: #1c1c1caa;
     padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 1px;
 }
 
 .home-text > h1 {
     color: white;
     font-size: 3rem;
-    margin-bottom: 35px;
+    line-height: 165%;
 }
 
 .home-text > p {
     color: white;
+    font-size: 13px;
+    margin-top: -20px;
 }
 
-.connect {
-    background-color: #C78B07;
+.connect-with {
+    background-color: #C78C06;
+    font-weight: 500;
     width: fit-content;
-    padding: 20px;
-    font-size: 1rem;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.connect-link {
-    color: #222222;
+.connect-with > .fa-caret-right {
+    position: relative;
+    top: 3px;
+    font-size: 1.7rem;
+    padding-left: 10px;
+}
+
+#about {
+    background-color: #ffe6ac;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.about-img {
+    width: 100%;
+}
+
+#about > h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#about > p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#services {
+    margin-top: 35px;
+    margin-bottom: -2px;
+}
+
+.service-blocks {
+    background-color: #ffe6ac;
+    margin-top: 10px;
+    padding-bottom: 14px;
+}
+
+.service-img {
+    width: 100%;
+}
+
+.service-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+
+.service-text > h2 {
+    font-weight: 700;
+
+}
+
+.service-text > p {
+    margin-top: -10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.plans {
+    background-color: #222;
+    color: white;
+    width: fit-content;
+}
+
+
+
+.plans > .fa-caret-right {
+
+}
+
+.vision {
+    background-image: url("/final-project/images/vision.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 25px;
+}
+
+.vision-text {
+    text-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.vision-text > p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.vision-learn {
+    border: solid 1px #C78C06;
+    width: fit-content;
+}
+
+#our-team > h1 {
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+
+.bio, .bio1 {
+    background-color: #ffe6ac;
+}
+
+.bio1 {
+    margin-bottom: -5px;
+}
+
+.bio-img {
+    width: 100%;
+}
+
+.bio-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+
+.bio-text > h2 {
+    margin-top: 15px;
+}
+
+.bio-text > h4 {
+    margin-bottom: -5px;
+    margin-top: -20px;
+}
+
+.bio-text > hr {
+    border: 1px solid #C78C06;
+}
+
+.bio-text > p {
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+#contact {
+    padding-right: 5px;
+}
+
+#contact > h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1px;
+    
+}
+
+label > p {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+.messages {
+    padding-bottom: 100px;
+    margin-bottom: 15px;
+}
+
+.form-button {
+    background-color: #222;
+    border: none;
+    color: #C78C06;
+    padding: 4px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
 }
 
 table, th, td {
-    border: 1px solid #222222;
+    border: 1px solid #222;
+    border-collapse: collapse;
     width: 100%;
 }
 
 .days-hours {
     text-align: center;
-    background-color: #FFE6AC;
+    background-color: #ffe6ac;
+}
+
+footer {
+    background-color: #222;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
+}
+
+footer > p {
+    color: #C78C06;
 }

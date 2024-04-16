@@ -4,241 +4,174 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/43aac08e4a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <title>Final Project Alex Chiabai</title>
 </head>
-<!-- body {
-    font-family: Arial, Helvetica, sans-serif;
-} -->
+<!-- font arial -->
 <body>
-    <!-- header {
-        background-color: #222222;
-        padding: 10px;
-        margin: -8px;
-    } -->
+    <!-- background color #222222, padding 10px, margin -8px -->
     <header>
-        <!-- .logo-banner {
-            background-color: #C78B07;
-            padding-top: 15px;
-            padding-bottom: 15px;
-        } -->
+        <!-- background color #C78C06, padding top & bottom 15px -->
         <div class="logo-banner">
             <img src="images/logo.png" alt="">
         </div>
         <nav>
-            <!-- ul {
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
-                position: static;
-                text-align: center;
-            } -->
+            <!-- list style none, padding & margin 0, position static, text align center -->
             <ul>
-                <!-- li {
-                    font-size: 1.2rem;
-                    padding-top: 20px;
-                    padding-bottom: 20px;
-                }
-                
-                a {
-                    text-decoration: none;
-                }
-                
-                .home-nav {
-                    background-color: #C78B07;
-                }
-                
-                .home-link {
-                    color: #222222;
-                }
-                
-                .nav-link {
-                    color: #C78B07;
-                } -->
-                <li class="home-nav"><a class="home-link" href="">Home</a></li>
-                <li><a class="nav-link" href="">About Us</a></li>
-                <li><a class="nav-link" href="">Services</a></li>
-                <li><a class="nav-link" href="">Team</a></li>
-                <li><a class="nav-link" href="">Contact</a></li>
+                <!-- li font size 1.2rem, padding top & bottom 20px, link text decoration none -->
+                <!-- home-nav background color #C78B07, home-link color #222222 -->
+                <li class="home-nav"><a class="home-link" href="#home">Home</a></li>
+                <!-- nav-link color #C78B07 -->
+                <li><a class="nav-link" href="#about">About Us</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+                <li><a class="nav-link" href="#our-team">Team</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <!-- .search-bar {
-            position: static;
-            width: 90%;
-            height: 35px;
-            font-size: 1.2rem;
-        }
-        
-        .fa-magnifying-glass {
-            color: #C78B07;
-            font-size: 1.5rem;
-            padding-left: 7px;
-            padding-right: 7px;
-            padding-bottom: 10px;
-            padding-top: 5px;
-            margin-left: -5px;
-            border: solid #C78B07 1px;
-        } -->
+        <!-- position static, width 90%, height 35px, font size 1.2rem -->
         <input class="search-bar" type="text" placeholder="Search">
+        <!-- color #C78C06, font size 1.5rem, padding left & right 7px, padding bottom 10px, padding top 5px, margin left -5px, border solid #C78B07 1px -->
         <i class="fa-solid fa-magnifying-glass"></i>
     </header>
-    <!-- .home {
-        background-image: url("/final-project/images/main-banner.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .home-text {
-        text-wrap: wrap;
-        background-color: #22222288;
-        padding-left: 10px;
-    }
-    
-    .home-text > h1 {
-        color: white;
-        font-size: 3rem;
-        margin-bottom: 35px;
-    }
-    
-    .home-text > p {
-        color: white;
-    }     -->
-    <div class="home">
+    <!-- background image to main-banner.jpg, background position to center, background repeat to no-repeat, background size to cover -->
+    <div id="home">
+        <!-- text wrap to wrap, background #22222288, padding to left and 10px -->
         <div class="home-text">
+            <!-- change color to white, set font-size to 3rem, set margin to bottom and 35px -->
             <h1>Welcome to Three Star Media</h1>
+            <!-- set color to white -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iusto corrupti accusamus, possimus officiis minima voluptate in maiores deleniti laboriosam incidunt beatae minus recusandae accusantium, numquam quae neque. Molestias, debitis!</p>
-            <!-- .connect {
-                background-color: #C78B07;
-                width: fit-content;
-                padding: 20px;
-                font-size: 1rem;
-            }
-            
-            .connect-link {
-                color: #222222;
-            } -->
-            <div class="connect">
-                <a class="connect-link" href="">Connect with us</a>
-                <i class="fa-solid fa-caret-right"></i>
+            <!-- make background #C78C06, set width to fit-content, make padding 20px, change font to 1rem -->
+            <button class="connect-with" onclick="document.location = '#contact'">Connect with us<i class="fa-solid fa-caret-right"></i>
+            </button>
+        </div>
+    </div>
+    <div id="about">
+        <img class="about-img" src="images/about-us.jpg" alt="">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe accusamus eaque est neque animi? Quam assumenda commodi totam asperiores exercitationem voluptates quo, illum iusto vel beatae nesciunt delectus incidunt quibusdam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione beatae aperiam laborum praesentium repellat odit neque pariatur, unde, aspernatur voluptates eos adipisci exercitationem provident nemo, autem placeat ipsa optio dolore.</p>
+    </div>
+    <h1 id="services">Our Services</h1>
+    <div class="service-blocks">
+        <img class="service-img" src="images/digital.jpg" alt="">
+        <div class="service-text">
+            <h2>Digital Transformation</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque deserunt esse quisquam voluptates ut rerum similique laborum commodi, tempora provident voluptatem aliquam ipsam. Officia saepe suscipit voluptate molestiae vel laborum?</p>
+            <!-- add background-color and border -->
+            <div class="plans">
+                <p>Digital Plans<i class="fa-solid fa-caret-right"></i></p>
             </div>
         </div>
     </div>
-    <div class="about">
-        <img src="images/about-us.jpg" alt="">
-    </div>
-    <h1 class="services">Our Services</h1>
-    <div>
-        <img src="images/digital.jpg" alt="">
-        <h2>Digital Transformation</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque deserunt esse quisquam voluptates ut rerum similique laborum commodi, tempora provident voluptatem aliquam ipsam. Officia saepe suscipit voluptate molestiae vel laborum?</p>
-        <!-- add background-color and border -->
-        <div class="plans">
-            Digital Plans
-            <i class="fa-solid fa-caret-right"></i>
+    <div class="service-blocks">
+        <img class="service-img" src="images/marketing.jpg" alt="">
+        <div class="service-text">
+            <h2>Marketing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ex magni natus tempora vel! Molestias quisquam molestiae nostrum in ea unde exercitationem beatae temporibus ipsum! Tempora, mollitia dicta! Molestiae, tempore!</p>
+            <!-- add background-color and border -->
+            <div class="plans">
+                <p>Marketing Plans<i class="fa-solid fa-caret-right"></i></p>
+            </div>
         </div>
     </div>
-    <div>
-        <img src="images/marketing.jpg" alt="">
-        <h2>Marketing</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ex magni natus tempora vel! Molestias quisquam molestiae nostrum in ea unde exercitationem beatae temporibus ipsum! Tempora, mollitia dicta! Molestiae, tempore!</p>
-        <!-- add background-color and border -->
-        <div class="plans">
-            Marketing Plans
-            <i class="fa-solid fa-caret-right"></i>
+    <div class="service-blocks">
+        <img class="service-img" src="images/video.jpg" alt="">
+        <div class="service-text">
+            <h2>Video Production</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi nulla molestiae magnam, perferendis quo voluptatibus tempora at ullam, voluptate consequuntur aspernatur earum deleniti similique numquam suscipit. Illum, officia enim?</p>
+            <!-- add background-color and border -->
+            <div class="plans">
+                <p>Video Plans<i class="fa-solid fa-caret-right"></i></p>
+            </div>
         </div>
     </div>
-    <div>
-        <img src="images/video.jpg" alt="">
-        <h2>Video Production</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quasi nulla molestiae magnam, perferendis quo voluptatibus tempora at ullam, voluptate consequuntur aspernatur earum deleniti similique numquam suscipit. Illum, officia enim?</p>
-        <!-- add background-color and border -->
-        <div class="plans">
-            Video Plans
-            <i class="fa-solid fa-caret-right"></i>
+    <div class="service-blocks">
+        <img class="service-img" src="images/web.jpg" alt="">
+        <div class="service-text">
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi quaerat dicta qui ipsa pariatur, reprehenderit quasi officia beatae perferendis, voluptatem aperiam ut optio cupiditate minus expedita dolorum sunt dolore?</p>
+            <!-- add background-color and border -->
+            <div class="plans">
+                <p>Web Plans<i class="fa-solid fa-caret-right"></i></p>
+            </div>
         </div>
     </div>
-    <div>
-        <img src="images/web.jpg" alt="">
-        <h2>Web Development</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi quaerat dicta qui ipsa pariatur, reprehenderit quasi officia beatae perferendis, voluptatem aperiam ut optio cupiditate minus expedita dolorum sunt dolore?</p>
-        <!-- add background-color and border -->
-        <div class="plans">
-            Web Plans
-            <i class="fa-solid fa-caret-right"></i>
+    <div class="service-blocks">
+        <img class="service-img" src="images/print.jpg" alt="">
+        <div class="service-text">
+            <h2>Print</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nostrum laboriosam quae labore, consequatur maiores asperiores eveniet sapiente alias nemo, totam qui? Debitis recusandae vel, vero numquam quidem similique molestias!</p>
+            <!-- add background-color and border -->
+            <div class="plans">
+                <p>Print Plans<i class="fa-solid fa-caret-right"></i></p>
+            </div>
         </div>
     </div>
-    <div>
-        <img src="images/print.jpg" alt="">
-        <h2>Print</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nostrum laboriosam quae labore, consequatur maiores asperiores eveniet sapiente alias nemo, totam qui? Debitis recusandae vel, vero numquam quidem similique molestias!</p>
-        <!-- add background-color and border -->
-        <div class="plans">
-            Print Plans
-            <i class="fa-solid fa-caret-right"></i>
+    <div class="vision">
+        <div class="vision-text">
+            <h2>Our Vision</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, ratione, sequi possimus nesciunt excepturi sit et vero suscipit, sed reiciendis quae aperiam. Debitis sit unde tenetur cum, ab rem harum.</p>
+            <!-- add background-color and border -->
+            <div class="vision-learn">
+                <p>Learn More<i class="fa-solid fa-caret-right"></i></p>
+            </div>
         </div>
     </div>
-    <div>
-        <h2>Our Vision</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, ratione, sequi possimus nesciunt excepturi sit et vero suscipit, sed reiciendis quae aperiam. Debitis sit unde tenetur cum, ab rem harum.</p>
-        <!-- add background-color and border -->
-        <div class="plans">
-            Learn More
-            <i class="fa-solid fa-caret-right"></i>
-        </div>
-    </div>
-    <div>
+    <div id="our-team">
         <h1>Our Team</h1>
-        <div>
-            <img src="images/john.jpg" alt="">
-            <h2>John Doe</h2>
-            <p>CEO and Co-owner</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi labore quidem tenetur consectetur, porro accusantium modi dolor beatae eveniet corporis hic saepe quas, maxime impedit amet alias laboriosam enim natus.</p>
+        <div class="bio1">
+            <img class="bio-img" src="images/john.jpg" alt="">
+            <div class="bio-text">
+                <h2>John Doe</h2>
+                <h4>CEO and Co-owner</h4>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi labore quidem tenetur consectetur, porro accusantium modi dolor beatae eveniet corporis hic saepe quas, maxime impedit amet alias laboriosam enim natus.</p>
+            </div>
         </div>
-        <div>
-            <img src="images/bob.jpg" alt="">
-            <h2>Bob Rite</h2>
-            <p>CEO and Co-owner</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi labore quidem tenetur consectetur, porro accusantium modi dolor beatae eveniet corporis hic saepe quas, maxime impedit amet alias laboriosam enim natus.</p>
+        <div class="bio">
+            <img class="bio-img" src="images/bob.jpg" alt="">
+            <div class="bio-text">
+                <h2>Bob Rite</h2>
+                <h4>CEO and Co-owner</h4>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi labore quidem tenetur consectetur, porro accusantium modi dolor beatae eveniet corporis hic saepe quas, maxime impedit amet alias laboriosam enim natus.</p>
+            </div>
         </div>
     </div>
-    <div>
+    <br>
+    <div id="contact">
         <h1>Contact Us</h1>
         <h2>Send us a message</h2>
-        <p>Full Name</p>
-        <input type="text">
-        <p>Email</p>
-        <input type="text">
-        <p>Messages</p>
-        <input type="text">
-        <div>
-            <button>Send</button>
-        </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179452.44513004564!2d-75.89500138359374!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1712188050265!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <!-- <h2>Hours of operation</h2>
-        table, th, td {
-            border: 1px solid #222222;
-            width: 100%;
-        }
-        
-        .days-hours {
-            text-align: center;
-            background-color: #FFE6AC;
-        } -->
+        <form action="index.html" method="get">
+            <label for="fullname"><p>Full Name</p></label>
+            <input id="fullname">
+            <label for="email"><p>Email</p></label>
+            <input id="email">
+            <label for="messages"><p>Messages</p></label>
+            <input class="messages" id="messages">
+            <button class="form-button" type="submit">Send</button>
+        </form>
+        <h2>Hours of operation</h2>
         <table>
             <tr class="days-hours">
-                <th>Days</th>
-                <th>Hours</th>
+                <td><p>Days</p></td>
+                <td><p>Hours</p></td>
             </tr>
             <tr>
-                <td>Monday - Friday</td>
-                <td>9 AM - 6 PM</td>
+                <td><p>Monday - Friday</p></td>
+                <td><p>9 AM - 6 PM</p></td>
             </tr>
             <tr>
-                <td>Saturday - Sunday</td>
-                <td>Closed</td>
+                <td><p>Saturday - Sunday</p></td>
+                <td><p>Closed</p></td>
             </tr>
         </table>
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179452.44513004564!2d-75.89500138359374!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1712188050265!5m2!1sen!2sca" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <footer>
         <p>© Copyright Three Star Media</p>
