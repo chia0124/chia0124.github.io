@@ -427,6 +427,7 @@
 
     nav {
         width: 100%;
+        display: flex;
     }
 
     ul {
@@ -462,5 +463,11 @@
 
     .search {
         text-align: center;
+    }
+
+    .service-blocks {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
