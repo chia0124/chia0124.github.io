@@ -65,10 +65,14 @@ ul {
     padding-bottom: 20px;
 }
 
+.search {
+    display: flex;
+}
+
 .search-bar {
     position: static;
-    width: 90%;
     height: 35px;
+    width: 100%;
     font-size: 1.2rem;
 }
 
@@ -79,7 +83,6 @@ ul {
     padding-right: 7px;
     padding-bottom: 10px;
     padding-top: 5px;
-    margin-left: -5px;
     border: solid #C78C06 1px;
 }
 
